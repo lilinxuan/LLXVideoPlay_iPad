@@ -25,7 +25,7 @@
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     
-    
+    [UIApplication sharedApplication].idleTimerDisabled =YES;
     
     return YES;
 }
